@@ -1,0 +1,39 @@
+{
+  "name": "template_generator",
+  "version": "1.0.0",
+  "description": "Creating a project from personal preference",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git cz"
+  },
+  "bin": {
+    "ysk": "src/bin/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeohsoonkeat/template_generator.git"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "Yeoh Soon Keat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yeohsoonkeat/template_generator/issues"
+  },
+  "homepage": "https://github.com/yeohsoonkeat/template_generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "yargs": "^16.1.1"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.2",
+    "git-cz": "^4.7.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  }
+
+}
